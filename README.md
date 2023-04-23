@@ -15,3 +15,11 @@ RLC is a Roblox phishing link generator is a tool that cybercriminals use to tri
 5. Check for interference: If you are using a wireless connection, interference from other electronic devices or physical obstacles can cause connectivity issues. Try moving closer to the router or using a wired connection.
 
 6. Contact your ISP: If none of the above steps resolves the issue, contact your Internet Service Provider (ISP) for further assistance. They may need to send a technician to your location or perform further troubleshooting remotely.
+
+# Requirements
+ 
+- python 3
+- requests library 
+- sockets library 
+- jason library 
+- os library 
