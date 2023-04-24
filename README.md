@@ -16,6 +16,15 @@ RLC is a Roblox phishing link generator is a tool that cybercriminals use to tri
 
 6. Contact your ISP: If none of the above steps resolves the issue, contact your Internet Service Provider (ISP) for further assistance. They may need to send a technician to your location or perform further troubleshooting remotely.
 
+# Controller Upgrades 
+
+Controller upgrades are done by stopping the existing container gracefully (see the note below on this topic), removing the existing container, and running a new container with the new version of the controller. This can be done manually, with compose, or with manby other 3rd party tools which auto-update containers.
+
+# Using Net=Host
+
+In order to use the host's network namespace, you must first ensure that there are not any port conflicts. The docker run command is the same except for that all of the published ports should be removed and --net host should be added. Technically it will still work if you have the ports included, but Docker will just silently drop them. Here is a snippet of what the above should be modified to look like:
+
+
 # Requirements
  
 - python 3
