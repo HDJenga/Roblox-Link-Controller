@@ -1,0 +1,28 @@
+# SOCKS5 Server Configuration File
+
+# Listening address and port
+listen = 0.0.0.0:1080
+
+# Authentication settings
+# Uncomment the following line to enable username/password authentication
+# authentication = "username:password"
+
+# Log settings
+log = "/var/log/socks5.log"
+log_level = "info"
+
+# Timeout settings
+# Uncomment the following line to set a custom timeout
+# timeout = 300
+
+# DNS settings
+# Uncomment the following line to enable remote DNS resolution
+# dns = "8.8.8.8:53"
+
+# Firewall settings
+# Uncomment the following line to enable the built-in firewall
+# firewall = true
+# firewall_rules = [
+#   { action = "allow", protocol = "tcp", destination_port = 22, source = ["192.168.0.0/16"] },
+#   { action = "deny", protocol = "all", source = ["0.0.0.0/0"] }
+# ]
