@@ -2,6 +2,16 @@
 
 RLC is a Roblox phishing link generator is a tool that cybercriminals use to trick Roblox users into revealing their login credentials. The generator works by creating a fake Roblox login page that looks identical to the real one. To make the generator work, Python is used to open SOCK5 sockets that connect to the local network and host a temporary website that contains the fake login page.
 
+# Anti Virus Flagging Roblox Link Controller As Virus?
+
+A program that connects to the internet and downloads all the necessary libraries needed to run an application may be flagged as a false positive by some antivirus software. This is because the behavior of downloading and executing files from the internet may be associated with malicious software or malware.
+
+Antivirus software uses a variety of techniques to detect potential threats, such as signature-based detection and behavioral analysis. If the program's behavior matches that of known malware or suspicious software, it may be flagged as a false positive even though it is not actually harmful.
+
+Another reason why a legitimate program may be flagged as a false positive is due to the use of obfuscation techniques. These techniques are often used by malware creators to disguise their code and evade detection by antivirus software. However, some legitimate software developers may also use obfuscation techniques to protect their intellectual property, which may trigger a false positive.
+
+It is important for users to keep their antivirus software up-to-date and to use trusted sources when downloading software. Additionally, if a program is flagged as a false positive, users should investigate the issue further and report it to the software developer and antivirus vendor if necessary.
+
 # What to do when having Issues connecting?
 
 1. Check your hardware: Make sure that your modem, router, and computer are all plugged in and turned on. Check for any visible damage to cables or equipment, and ensure that everything is connected properly.
